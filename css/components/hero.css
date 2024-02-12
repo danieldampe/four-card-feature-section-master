@@ -1,0 +1,27 @@
+/* 
+// *** *** *** Hero *** *** ***
+*/
+.hero { 
+    width: min(85%, 520px);
+    color: var(--color-very-dark-blue);
+    text-align: center; 
+}
+
+.hero__h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.hero__h2 {
+    margin-bottom: 1.2rem;
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+.hero__content { color: var(--color-grayish-blue); }
+
+@media screen and (min-width: 1000px) {
+    .hero__h1 { font-size: 2.4rem; }
+    .hero__h2 { font-size: 2.35rem; }
+}
